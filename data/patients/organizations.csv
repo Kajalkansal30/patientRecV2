@@ -1,0 +1,6 @@
+Id,NAME,ADDRESS,CITY,STATE,ZIP,LAT,LON,PHONE,REVENUE,UTILIZATION
+ORG001,Delhi Central Health Clinic,Connaught Place,New Delhi,DL,110001,28.6315,77.2167,-4021,12500000,0.78
+ORG002,Mumbai Metro Medical Center,Bandra East,Mumbai,MH,400051,19.06,72.83,-4233,17800000,0.82
+ORG003,Bengaluru City Hospital,MG Road,Bengaluru,KA,560001,12.9756,77.6055,-4492,21000000,0.85
+ORG004,Chandigarh Specialty Institute,Sector 17,Chandigarh,CH,160017,30.7415,76.7821,-4585,16200000,0.8
+ORG005,Lucknow Family Care Center,Gomti Nagar,Lucknow,UP,226010,26.8467,80.9462,-5036,8400000,0.7

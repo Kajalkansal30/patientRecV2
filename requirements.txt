@@ -1,0 +1,14 @@
+langgraph
+langchain
+langchain_community
+langchain_ollama
+spacy
+scispacy
+negspacy
+pypdf
+pandas
+pydantic
+matplotlib
+graphviz
+pygraphviz
+ollama

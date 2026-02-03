@@ -1,0 +1,6 @@
+START,STOP,PATIENT,ENCOUNTER,CODE,SYSTEM,DESCRIPTION,TYPE,CATEGORY,REACTION1,DESCRIPTION1,SEVERITY1,REACTION2,DESCRIPTION2,SEVERITY2
+2023-08-01,,P001,E002,7982,http://snomed.info/sct,No known drug allergies (NKDA),allergy,recorded,none,,None,,None,
+2021-06-05,,P002,E003,91936005,http://snomed.info/sct,Allergy to ACE inhibitors,allergy,medication,Angioedema,Swelling of lips/face,Severe,Urticaria,Hives / rash,Moderate
+2020-09-06,,P003,E005,409137002,http://snomed.info/sct,Sensitivity to beta-agonist inhalers,adverse reaction,medication,Tremor,Shakiness after inhaler use,Mild,Palpitations,Fast heartbeat,Mild
+2022-09-02,,P004,E009,294954006,http://snomed.info/sct,Allergy to insulin preparation,allergy,medication,Rash,Injection site rash,Moderate,Pruritus,Itching,Mild
+2024-06-15,,P005,E010,7982,http://snomed.info/sct,No known drug allergies (NKDA),allergy,recorded,none,,None,,None,

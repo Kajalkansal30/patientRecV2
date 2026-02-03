@@ -1,0 +1,15 @@
+START,STOP,PATIENT,ENCOUNTER,SYSTEM,CODE,DESCRIPTION
+2022-03-10,,P001,E001,http://snomed.info/sct,44054006,Diabetes mellitus type 2 (T2DM)
+2023-07-15,,P001,E002,http://snomed.info/sct,59621000,Essential hypertension
+,,,,,,
+2021-05-20,,P002,E003,http://snomed.info/sct,38341003,High blood pressure (HTN)
+2024-01-18,,P002,E004,http://snomed.info/sct,709044004,Chronic kidney disease stage 3 (moderate)
+,,,,,,
+2020-09-05,,P003,E005,http://snomed.info/sct,195967001,Bronchial asthma (mild intermittent)
+2023-11-22,,P003,E006,http://snomed.info/sct,10509002,Acute bronchitis (viral)
+,,,,,,
+2019-02-14,,P004,E007,http://snomed.info/sct,44054006,Non-insulin dependent diabetes mellitus
+2018-06-01,,P004,E008,http://snomed.info/sct,59621000,Essential hypertension
+2022-08-30,,P004,E009,http://snomed.info/sct,709044004,Chronic kidney disease stage 4 (severe)
+,,,,,,
+2024-06-12,,P005,E010,http://snomed.info/sct,195967001,Reactive airway disease / asthma

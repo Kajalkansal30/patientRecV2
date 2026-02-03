@@ -1,0 +1,53 @@
+[
+  {
+    "patient_id": "P002",
+    "status": "Ineligible (Pass Exclusion, Fail Inclusion)",
+    "confidence": 0.5,
+    "reasoning": [
+      "Patient's diagnosis 'Chronic Kidney Disease Stage 3' does not match inclusion criteria 'T. Cruzi Infection'",
+      "Patient's age (40) is within the range of 18 to 50 years, so it meets the inclusion criterion for age",
+      "Patient's gender is female, which matches the inclusion criterion for any gender"
+    ],
+    "summary": "Patient does not meet inclusion criteria due to mismatched diagnosis and missing lab values."
+  },
+  {
+    "patient_id": "P003",
+    "status": "Ineligible (Pass Exclusion, Fail Inclusion)",
+    "confidence": 0.5,
+    "reasoning": [
+      "Patient does not meet inclusion criteria for diagnoses: 'Bronchial Asthma' and 'Acute Bronchitis' do not match 'T. Cruzi Infection'",
+      "Patient's age (29) is within the normal range (>18 to <50 years)",
+      "Patient's gender ('male') matches any gender",
+      "Patient's weight (not provided) is marked as Eligible but noted in reasoning"
+    ],
+    "summary": "Patient does not meet inclusion criteria for diagnoses, but meets age and gender requirements."
+  },
+  {
+    "patient_id": "P005",
+    "status": "Eligible",
+    "confidence": 0.5,
+    "reasoning": [
+      "Patient's age (23) meets the inclusion criteria for age (>18 to <50 years)",
+      "Patient's gender (male) meets the inclusion criteria for gender (any)",
+      "Patient's weight is not available, marking as Eligible but noting in reasoning",
+      "Patient has Reactive Airway Disease, which does not meet the inclusion criteria for diagnoses (T. Cruzi Infection)"
+    ],
+    "summary": "Patient partially meets inclusion criteria due to missing weight and mismatched diagnosis"
+  },
+  {
+    "patient_id": "P001",
+    "status": "Excluded (Deterministic)",
+    "reasons": [
+      "Age 53 > Required Max 50"
+    ],
+    "summary": "Failed hard exclusion criteria"
+  },
+  {
+    "patient_id": "P004",
+    "status": "Excluded (Deterministic)",
+    "reasons": [
+      "Age 67 > Required Max 50"
+    ],
+    "summary": "Failed hard exclusion criteria"
+  }
+]

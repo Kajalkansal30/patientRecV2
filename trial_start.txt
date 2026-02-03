@@ -1,0 +1,130 @@
+Protocol number DNDi-CH-E1224-003    
+ May 04, 2018.  Version 5.0.   
+Confidential  Page 37 of 87 
+ 
+4. SELECTION OF PATIENTS 
+Adult patients >18 and <50 years  and weight >50 kg to <80 with serologic tests 
+confirming a diagnosis of T. cruzi infection will be selected to participate in the trial.  
+The following screening criteria are designed to select patients for whom the protocol 
+treatment is considered appropriate. All relevant medical and non -medical conditions should 
+be taken into consideration when deciding whether this protocol is suitable for a particular 
+patient. Eligibility criteria may not be waived by the investigator. Any questions re garding a 
+patient¶V eligibiliW\ VhoXld be diVcXVVed ZiWh DNDi¶V medicall\ TXalified WUial manageU SUioU Wo a 
+patient¶V enUollmenW. 
+4.1. Screening criteria 
+ 
+x Signed, written informed consent form 
+x Age >18 to <50 years 
+x Weight >50 kg to <80 kg 
+x Diagnosis of T. cruzi infection by: 
+o Conventional serology (a minimum of two positive tests [Conventional ELISA, 
+Recombinant Elisa and/or Indirect Immunofluorescence (IIF)])  
+x Ability to comply with all protocol specified tests and visits and have a permanent 
+address 
+x Patients must be residents of areas free of vectorial transmission (Triatoma infestans). 
+For this protocol, it will be accepted the status of Vectorial Transmission Interruption or 
+Consolidation as per the definition of PAHO/WHO, or the Local Health Program.  
+x No signs and/or symptoms of the chronic cardiac and/or digestive form of CD 
+x No acute or chronic health conditions, that in the opinion of the PI, may interfere with 
+the efficacy and/or safety evaluation of the trial drug (such as acute infections, history 
+of HIV infection, liver and renal disease requiring treatment) 
+x No formal contraindication to BZN (according to the Summary of Product 
+ChaUacWeUiVWicV) and E1224 (accoUding Wo Whe InYeVWigaWoU¶V BUochXUe) 
+ Note: The contraindications described for Benznidazol and E1224 are essentially 
+hypersensitivity to the active ingredient or any excipient. In the case of hepatic or renal 
+impairment or blood discrasia, the medication should only be administered under strict 
+medical supervision. During all the treatment period, the blood count will be monitored, 
+Protocol number DNDi-CH-E1224-003    
+ May 04, 2018.  Version 5.0.   
+Confidential  Page 38 of 87 
+ 
+with special attention to leucocytes. Subjects will be indicated about the need of no 
+alcohol intake. 
+x No history of hypersensitivity, allergic, or serious adverse reactions to any of the 
+³a]oleV´ comSoXnd, and/oU iWV components 
+x No history of CD treatment with BZN or NFX at any time in the past  
+x No history of systemic treatment with itraconazole, ketoconazole, posaconazole, 
+isavuconazole, or allopurinol in the past  
+x No history of alcohol abuse or any other drug addiction (as specified in the Study 
+Manual of Operations) 
+x No condition that prevents patient from taking oral medication 
+x No concomitant or anticipated use of drugs that are either sensitive CYP3A4 substrates 
+and/or extensively metabolized by CYP3A4 with a narrow therapeutic range (as per 
+Appendix 2) 
+x No medical history of Familial Short QT syndrome or concomitant therapy with 
+medications that can shorten the QT interval (as per Appendix 2) 
+x No family history of sudden death 
+x No family history of sudden infant death syndrome 
+ 
+4.2. Inclusion criteria 
+Following the screening period, patients must meet ALL of the following inclusion criteria 
+to be eligible for randomization:  
+x Confirmed diagnosis of T. cruzi infection by: 
+o Serial qualitative PCR (three samples collected over a single day, at least one 
+of which must be positive) AND 
+o Conventional serology (a minimum of two positive tests must be positive 
+[Conventional ELISA, Recombinant Elisa and/or IIF)  
+x Women in reproductive age must have a negative serum pregnancy test at screening, 
+must not be breastfeeding, and must use a double barrier method of contraception to 
+avoid pregnancy throughout a clinical trial and for 3 months after completion of the trial, 
+in such a manner that the risk of pregnancy is minimized especially during exposure to 
+Protocol number DNDi-CH-E1224-003    
+ May 04, 2018.  Version 5.0.   
+Confidential  Page 39 of 87 
+ 
+treatment.  Women who are using oral, implanted, or injectable contraceptive hormones or 
+mechanical products such as an intrauterine device with a hormonal component are 
+required to use an additional barrier method of contraception for the time period specified. 
+x NoUmal EKG (PR 200 mVec, QRS <120 mVec, and QTc 350 mVec and 450 mVec 
+inWeUYal dXUaWionV in maleV and QTc 470 msec in women) at screening. 
+ 
+4.3.  Exclusion criteria 
+The presence of any of the following will exclude a patient from trial randomization: 
+x Signs and/or symptoms of chronic cardiac and/or digestive form of CD   
+x History of cardiomyopathy, heart failure, or ventricular arrhythmia.  
+x History of digestive surgery or mega syndromes. 
+x Any other acute or chronic health conditions that, in the opinion of the PI, may interfere 
+with the efficacy and/or safety evaluation of the trial drug (such as acute infections, 
+history of HIV infection, diabetes, uncontrolled systolic/ diastolic blood pressure, liver , 
+and renal disease requiring medical treatment). 
+x Laboratory test values considered clinically significant or out of the allowable range at 
+selection period as follows: 
+o Total WBC must be within the normal range, with an acceptable margin of +/- 
+5% (3,800 ± 10,500/mm3). 
+o Platelets must be within the normal range up to 550,000/mm3 
+o Total bilirubin must be within the normal range 
+o Transaminases (ALT and AST) must be within the normal range, with an 
+acceptable margin of 25% abov e the upper limit of normality (ULN), <1.25 x 
+ULN. 
+o Creatinine must be within an acceptable margin of 10% above the ULN, <1.10 
+x ULN. 
+o Alkaline phosphatase must be within the normal range up to Grade 1 CTCAE 
+(< 2.5 x ULN) 
+o GGT must be within the normal range up to 2x ULN. 
+o Fasting glucose must be within the normal range 
+o Electrolytes (Ca, Mg, K) must be within the normal range 
+x If the results of the blood tests (hematology and biochemistry) are out of the ranges 
+defined above, but within the limits of CTCAE (version 4.03) Grade 1, and the laboratory 
+Protocol number DNDi-CH-E1224-003    
+ May 04, 2018.  Version 5.0.   
+Confidential  Page 40 of 87 
+ 
+finding is considered as non -clinically significant, a new sample can be collected for a 
+retest. Only one retest will be allowed within the screening period.  
+x If the result of retest is within the margins defined above, the Investigator will review the 
+parameter(s) together with all other medical information available (medical history, 
+clinical examinations, vital signs, etc.) and upon his/her medical judgment will decide if 
+the patient is eligible or not for trial randomization. 
+x Any condition that prevents the patient from taking oral medication 
+x Patients with history of allergy (serious or not), allergic skin rash, asthma , intolerance, 
+sensitivity or photosensitivity to any drug 
+x Patients with any contra-indication (known hypersensitivity) to any nitroimidazoles, e.g. 
+metronidazole. 
+x Any concomitant use of allopurinol, antimicrobial, or anti-parasitic agents. 
+x Any planned surgery likely to interfere with the trial conduction and/or treatment 
+evaluation 
+x Unlikely to co-operate with the trial 
+x Any previous participation in any clinical trial for Chagas Disease treatment evaluation   
+x Participation in another trial at the same time or within 3 months prior to selection 
+(according to local regulations) 
+

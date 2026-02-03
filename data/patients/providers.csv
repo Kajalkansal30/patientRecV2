@@ -1,0 +1,15 @@
+Id,ORGANIZATION,NAME,GENDER,SPECIALITY,ADDRESS,CITY,STATE,ZIP,LAT,LON,ENCOUNTERS,PROCEDURES
+PRV001,ORG001,Dr. Sandeep Malhotra,M,Primary Care Physician,12 Green Park,New Delhi,DL,110001,28.558,77.2065,120,35
+PRV002,ORG001,Dr. Neha Kapoor,F,Internal Medicine,Connaught Place,New Delhi,DL,110001,28.6315,77.2167,98,28
+,,,,,,,,,,,,
+PRV003,ORG002,Dr. Amit Desai,M,Cardiology,45 Bandra West,Mumbai,MH,400050,19.06,72.83,140,60
+PRV004,ORG002,Dr. Ritu Shah,F,Nephrology,Andheri East,Mumbai,MH,400069,19.1197,72.8464,85,42
+,,,,,,,,,,,,
+PRV005,ORG003,Dr. Karan Iyer,M,Pulmonology,77 Indiranagar,Bengaluru,KA,560038,12.9719,77.6412,110,50
+PRV006,ORG003,Dr. Megha Rao,F,Emergency Medicine,MG Road,Bengaluru,KA,560001,12.9756,77.6055,210,75
+,,,,,,,,,,,,
+PRV007,ORG004,Dr. Vijay Singh,M,Endocrinology,9 Sector 22,Chandigarh,CH,160022,30.7333,76.7794,90,40
+PRV008,ORG004,Dr. Pooja Bansal,F,Internal Medicine,Sector 17,Chandigarh,CH,160017,30.7415,76.7821,105,32
+PRV009,ORG004,Dr. Harish Mehta,M,Nephrology,Sector 35,Chandigarh,CH,160035,30.7182,76.7628,70,38
+,,,,,,,,,,,,
+PRV010,ORG005,Dr. Arnav Mishra,M,Primary Care Physician,101 Gomti Nagar,Lucknow,UP,226010,26.8467,80.9462,60,18

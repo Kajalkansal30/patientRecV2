@@ -1,0 +1,21 @@
+DATE,PATIENT,ENCOUNTER,CATEGORY,CODE,DESCRIPTION,VALUE,UNITS,TYPE
+2022-03-10,P001,E001,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,7.8,%,numeric
+2023-07-15,P001,E002,vital-signs,8480-6,Systolic blood pressure,146,mm[Hg],numeric
+2023-07-15,P001,E002,vital-signs,8462-4,Diastolic blood pressure,92,mm[Hg],numeric
+,,,,,,,,
+2021-05-20,P002,E003,vital-signs,8480-6,Systolic blood pressure,158,mm[Hg],numeric
+2021-05-20,P002,E003,vital-signs,8462-4,Diastolic blood pressure,96,mm[Hg],numeric
+2024-01-18,P002,E004,laboratory,2160-0,Creatinine [Mass/volume] in Serum or Plasma,1.6,mg/dL,numeric
+,,,,,,,,
+2020-09-05,P003,E005,vital-signs,59408-5,Oxygen saturation in Arterial blood by Pulse oximetry,95,%,numeric
+2020-09-05,P003,E005,vital-signs,9279-1,Respiratory rate,22,/min,numeric
+2023-11-22,P003,E006,vital-signs,8480-6,Systolic blood pressure,122,mm[Hg],numeric
+2023-11-22,P003,E006,vital-signs,8462-4,Diastolic blood pressure,78,mm[Hg],numeric
+,,,,,,,,
+2019-02-14,P004,E007,laboratory,4548-4,HbA1c (glycated hemoglobin),6.9,%,numeric
+2022-08-30,P004,E009,laboratory,2160-0,Serum creatinine,2.4,mg/dL,numeric
+2020-01-10,P004,E008,vital-signs,8480-6,Systolic blood pressure,164,mm[Hg],numeric
+2020-01-10,P004,E008,vital-signs,8462-4,Diastolic blood pressure,102,mm[Hg],numeric
+,,,,,,,,
+2024-06-12,P005,E010,vital-signs,59408-5,SpO2 (pulse oximetry),97,%,numeric
+2024-06-12,P005,E010,vital-signs,9279-1,Respiratory rate,18,/min,numeric

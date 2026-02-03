@@ -1,0 +1,15 @@
+DATE,PATIENT,ENCOUNTER,CODE,DESCRIPTION,QUANTITY
+2022-03-10,P001,E001,SUP001,Blood glucose test strips,100
+2022-03-10,P001,E001,SUP002,Lancets for blood glucose monitoring,100
+,,,,,
+2021-05-20,P002,E003,SUP010,Home blood pressure monitor (cuff),1
+2024-01-18,P002,E004,SUP011,Compression stockings (edema support),2
+,,,,,
+2020-09-05,P003,E005,SUP020,Spacer device for inhaler use,1
+2023-11-22,P003,E006,SUP021,Disposable face mask (clinical use),5
+,,,,,
+2019-02-14,P004,E007,SUP001,Blood glucose test strips,200
+2019-02-14,P004,E007,SUP002,Lancets for blood glucose monitoring,200
+2022-08-30,P004,E009,SUP030,Blood pressure cuff (clinic measurement),1
+,,,,,
+2024-06-12,P005,E010,SUP020,Spacer device for inhaler use,1

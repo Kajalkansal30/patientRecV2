@@ -1,0 +1,14 @@
+DATE,PATIENT,ENCOUNTER,CODE,DESCRIPTION,BASE_COST
+2022-03-10,P001,E001,140,"Influenza virus vaccine, seasonal, injectable",18
+2023-07-15,P001,E002,207,COVID-19 mRNA vaccine booster dose,25
+,,,,,
+2021-05-20,P002,E003,140,"Influenza virus vaccine, seasonal, injectable",18
+2024-01-18,P002,E004,33,Pneumococcal polysaccharide vaccine (PPSV23),45
+,,,,,
+2020-09-05,P003,E005,140,"Influenza virus vaccine, seasonal, injectable",18
+2023-11-22,P003,E006,207,COVID-19 mRNA vaccine booster dose,25
+,,,,,
+2020-01-10,P004,E008,140,"Influenza virus vaccine, seasonal, injectable",18
+2022-08-30,P004,E009,33,Pneumococcal polysaccharide vaccine (PPSV23),45
+,,,,,
+2024-06-12,P005,E010,140,"Influenza virus vaccine, seasonal, injectable",18

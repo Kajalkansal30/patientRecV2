@@ -1,0 +1,130 @@
+{
+  "GENERALIZED_RULES": {
+    "trial_id": "GENERALIZED_RULES",
+    "inclusion": {
+      "diagnoses": [
+        "T. Cruzi Infection"
+      ],
+      "labs": {
+        "total wbc": {
+          "min": 3800.0,
+          "max": 10500.0,
+          "quote": "Total WBC must be within the normal range, with an acceptable margin of +/- 5% (3,800 \u00b1 10,500/mm3)"
+        },
+        "platelets": {
+          "min": 55000.0,
+          "max": null,
+          "quote": "Platelets must be within the normal range up to 550,000/mm3"
+        },
+        "total bilirubin": {
+          "min": null,
+          "max": null,
+          "quote": "Total bilirubin must be within the normal range"
+        },
+        "transaminases (alt and ast)": {
+          "min": 0.75,
+          "max": 1.25,
+          "quote": "Transaminases (ALT and AST) must be within the normal range, with an acceptable margin of 25% above the upper limit of normality (ULN), <1.25 x ULN"
+        },
+        "creatinine": {
+          "min": 0.9,
+          "max": 1.1,
+          "quote": "Creatinine must be within an acceptable margin of 10% above the ULN, <1.10 x ULN"
+        },
+        "alkaline phosphatase": {
+          "min": null,
+          "max": 2.5,
+          "quote": "Alkaline phosphatase must be within the normal range up to Grade 1 CTCAE (< 2.5 x ULN)"
+        },
+        "ggt": {
+          "min": null,
+          "max": 2.0,
+          "quote": "GGT must be within the normal range up to 2x ULN"
+        },
+        "fasting glucose": {
+          "min": null,
+          "max": null,
+          "quote": "Fasting glucose must be within the normal range"
+        },
+        "electrolytes (ca, mg, k)": {
+          "min": null,
+          "max": null,
+          "quote": "Electrolytes (Ca, Mg, K) must be within the normal range"
+        }
+      },
+      "medications": [],
+      "age": {
+        "min": 18,
+        "max": 50,
+        "quote": "Age >18 to <50 years"
+      },
+      "gender": {
+        "value": "any",
+        "quote": ""
+      },
+      "weight": {
+        "min": 50.0,
+        "max": 80.0,
+        "quote": "Weight >50 kg to <80 kg"
+      }
+    },
+    "exclusion": {
+      "diagnoses": [
+        "Chronic Cardiac",
+        "Cardiomyopathy",
+        "Digestive Surgery"
+      ],
+      "labs": {
+        "total wbc": {
+          "min": null,
+          "max": null,
+          "quote": "Laboratory test values considered clinically significant or out of the allowable range at selection period as follows: Total WBC must be within the normal range, with an acceptable margin of +/- 5% (3,800 \u00b1 10,500/mm3)"
+        },
+        "platelets": {
+          "min": null,
+          "max": null,
+          "quote": "Laboratory test values considered clinically significant or out of the allowable range at selection period as follows: Platelets must be within the normal range up to 550,000/mm3"
+        },
+        "total bilirubin": {
+          "min": null,
+          "max": null,
+          "quote": "Laboratory test values considered clinically significant or out of the allowable range at selection period as follows: Total bilirubin must be within the normal range"
+        },
+        "transaminases (alt and ast)": {
+          "min": 0.75,
+          "max": 1.25,
+          "quote": "Laboratory test values considered clinically significant or out of the allowable range at selection period as follows: Transaminases (ALT and AST) must be within the normal range, with an acceptable margin of 25% above the upper limit of normality (ULN), <1.25 x ULN"
+        },
+        "creatinine": {
+          "min": null,
+          "max": null,
+          "quote": "Laboratory test values considered clinically significant or out of the allowable range at selection period as follows: Creatinine must be within an acceptable margin of 10% above the ULN, <1.10 x ULN"
+        },
+        "alkaline phosphatase": {
+          "min": null,
+          "max": null,
+          "quote": "Laboratory test values considered clinically significant or out of the allowable range at selection period as follows: Alkaline phosphatase must be within the normal range up to Grade 1 CTCAE (< 2.5 x ULN)"
+        },
+        "ggt": {
+          "min": null,
+          "max": null,
+          "quote": "Laboratory test values considered clinically significant or out of the allowable range at selection period as follows: GGT must be within the normal range up to 2x ULN"
+        },
+        "fasting glucose": {
+          "min": null,
+          "max": null,
+          "quote": "Laboratory test values considered clinically significant or out of the allowable range at selection period as follows: Fasting glucose must be within the normal range"
+        },
+        "electrolytes (ca, mg, k)": {
+          "min": null,
+          "max": null,
+          "quote": "Laboratory test values considered clinically significant or out of the allowable range at selection period as follows: Electrolytes (Ca, Mg, K) must be within the normal range"
+        }
+      },
+      "medications": [
+        "Bzn",
+        "Nfx"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1781 @@
+[
+  {
+    "patient_id": "P001",
+    "age": 53,
+    "gender": "m",
+    "diagnoses": [
+      "Diabetes mellitus type 2 (T2DM)",
+      "Essential hypertension"
+    ],
+    "procedures": [
+      "Hemoglobin A1c measurement",
+      "Blood pressure measurement"
+    ],
+    "medications": [
+      "Metformin HCl 500 mg tablet (oral)",
+      "Lisinopril 10mg tablet once daily"
+    ],
+    "labs": {
+      "Hemoglobin A1c/Hemoglobin.total in Blood": 7.8,
+      "Systolic blood pressure": 146.0,
+      "Diastolic blood pressure": 92.0
+    },
+    "raw_observations": [
+      {
+        "DATE": "2022-03-10",
+        "PATIENT": "P001",
+        "ENCOUNTER": "E001",
+        "CATEGORY": "laboratory",
+        "CODE": "4548-4",
+        "DESCRIPTION": "Hemoglobin A1c/Hemoglobin.total in Blood",
+        "VALUE": 7.8,
+        "UNITS": "%",
+        "TYPE": "numeric"
+      },
+      {
+        "DATE": "2023-07-15",
+        "PATIENT": "P001",
+        "ENCOUNTER": "E002",
+        "CATEGORY": "vital-signs",
+        "CODE": "8480-6",
+        "DESCRIPTION": "Systolic blood pressure",
+        "VALUE": 146.0,
+        "UNITS": "mm[Hg]",
+        "TYPE": "numeric"
+      },
+      {
+        "DATE": "2023-07-15",
+        "PATIENT": "P001",
+        "ENCOUNTER": "E002",
+        "CATEGORY": "vital-signs",
+        "CODE": "8462-4",
+        "DESCRIPTION": "Diastolic blood pressure",
+        "VALUE": 92.0,
+        "UNITS": "mm[Hg]",
+        "TYPE": "numeric"
+      }
+    ],
+    "raw_conditions": [
+      {
+        "START": "2022-03-10",
+        "STOP": null,
+        "PATIENT": "P001",
+        "ENCOUNTER": "E001",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 44054006.0,
+        "DESCRIPTION": "Diabetes mellitus type 2 (T2DM)"
+      },
+      {
+        "START": "2023-07-15",
+        "STOP": null,
+        "PATIENT": "P001",
+        "ENCOUNTER": "E002",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 59621000.0,
+        "DESCRIPTION": "Essential hypertension"
+      }
+    ],
+    "raw_medications": [
+      {
+        "START": "2022-03-12",
+        "STOP": null,
+        "PATIENT": "P001",
+        "PAYER": "PR001",
+        "ENCOUNTER": "E001",
+        "CODE": 860975.0,
+        "DESCRIPTION": "Metformin HCl 500 mg tablet (oral)",
+        "BASE_COST": 13.2,
+        "PAYER_COVERAGE": 10.5,
+        "DISPENSES": 6.0,
+        "TOTALCOST": 79.2,
+        "REASONCODE": 44054006.0,
+        "REASONDESCRIPTION": "Diabetes mellitus type 2 (T2DM)"
+      },
+      {
+        "START": "2023-07-16",
+        "STOP": null,
+        "PATIENT": "P001",
+        "PAYER": "PR001",
+        "ENCOUNTER": "E002",
+        "CODE": 316049.0,
+        "DESCRIPTION": "Lisinopril 10mg tablet once daily",
+        "BASE_COST": 7.8,
+        "PAYER_COVERAGE": 6.2,
+        "DISPENSES": 4.0,
+        "TOTALCOST": 31.2,
+        "REASONCODE": 59621000.0,
+        "REASONDESCRIPTION": "Essential hypertension"
+      }
+    ],
+    "raw_procedures": [
+      {
+        "START": "2022-03-10",
+        "STOP": "2022-03-10",
+        "PATIENT": "P001",
+        "ENCOUNTER": "E001",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 43396009.0,
+        "DESCRIPTION": "Hemoglobin A1c measurement",
+        "BASE_COST": 35.0,
+        "REASONCODE": 44054006.0,
+        "REASONDESCRIPTION": "Diabetes mellitus type 2 (T2DM)"
+      },
+      {
+        "START": "2023-07-15",
+        "STOP": "2023-07-15",
+        "PATIENT": "P001",
+        "ENCOUNTER": "E002",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 75367002.0,
+        "DESCRIPTION": "Blood pressure measurement",
+        "BASE_COST": 15.0,
+        "REASONCODE": 59621000.0,
+        "REASONDESCRIPTION": "Essential hypertension"
+      }
+    ],
+    "raw_allergies": [
+      {
+        "START": "2023-08-01",
+        "STOP": null,
+        "PATIENT": "P001",
+        "ENCOUNTER": "E002",
+        "CODE": 7982,
+        "SYSTEM": "http://snomed.info/sct",
+        "DESCRIPTION": "No known drug allergies (NKDA)",
+        "TYPE": "allergy",
+        "CATEGORY": "recorded",
+        "REACTION1": "none",
+        "DESCRIPTION1": null,
+        "SEVERITY1": null,
+        "REACTION2": null,
+        "DESCRIPTION2": null,
+        "SEVERITY2": null
+      }
+    ],
+    "raw_careplans": [
+      {
+        "Id": "CP001",
+        "START": "2022-03-10",
+        "STOP": null,
+        "PATIENT": "P001",
+        "ENCOUNTER": "E001",
+        "CODE": 698360004,
+        "DESCRIPTION": "Diabetes self-management plan",
+        "REASONCODE": 44054006,
+        "REASONDESCRIPTION": "Type 2 diabetes mellitus"
+      }
+    ],
+    "raw_claims": [
+      {
+        "Id": "CLM001",
+        "PATIENTID": "P001",
+        "PROVIDERID": "PRV001",
+        "PRIMARYPATIENTINSURANCEID": "PR001",
+        "SECONDARYPATIENTINSURANCEID": null,
+        "DEPARTMENTID": "DEP01",
+        "PATIENTDEPARTMENTID": "DEP01",
+        "DIAGNOSIS1": "E11.9",
+        "DIAGNOSIS2": "R73.03",
+        "DIAGNOSIS3": null,
+        "DIAGNOSIS4": null,
+        "DIAGNOSIS5": "Z79.84",
+        "DIAGNOSIS6": null,
+        "DIAGNOSIS7": null,
+        "DIAGNOSIS8": null,
+        "REFERRINGPROVIDERID": null,
+        "APPOINTMENTID": "PRV002",
+        "CURRENTILLNESSDATE": "APT001",
+        "SERVICEDATE": "2022-03-05",
+        "SUPERVISINGPROVIDERID": "2022-03-10",
+        "STATUS1": "PRV001",
+        "STATUS2": "PAID",
+        "STATUSP": null,
+        "OUTSTANDING1": "PAID",
+        "OUTSTANDING2": 0,
+        "OUTSTANDINGP": 0,
+        "LASTBILLEDDATE1": 0,
+        "LASTBILLEDDATE2": "2022-03-15",
+        "LASTBILLEDDATEP": null,
+        "HEALTHCARECLAIMTYPEID1": "2022-03-15",
+        "HEALTHCARECLAIMTYPEID2": "OUTPATIENT"
+      }
+    ],
+    "raw_devices": [
+      {
+        "START": "2022-03-10",
+        "STOP": null,
+        "PATIENT": "P001",
+        "ENCOUNTER": "E001",
+        "CODE": 706684005,
+        "DESCRIPTION": "Blood glucose meter (glucometer)",
+        "UDI": "(01)08912345000011(17)280101(10)GLUCO-P001"
+      }
+    ],
+    "raw_encounters": [
+      {
+        "Id": "E001",
+        "START": "2022-03-10T09:15:00Z",
+        "STOP": "2022-03-10T09:45:00Z",
+        "PATIENT": "P001",
+        "ORGANIZATION": "ORG001",
+        "PROVIDER": "PRV001",
+        "PAYER": "PR001",
+        "ENCOUNTERCLASS": "ambulatory",
+        "CODE": 185349003.0,
+        "DESCRIPTION": "Encounter for check-up (diabetes follow-up)",
+        "BASE_ENCOUNTER_COST": 90.0,
+        "TOTAL_CLAIM_COST": 220.0,
+        "PAYER_COVERAGE": 180.0,
+        "REASONCODE": 44054006.0,
+        "REASONDESCRIPTION": "Diabetes mellitus type 2 (T2DM)"
+      },
+      {
+        "Id": "E002",
+        "START": "2023-07-15T10:30:00Z",
+        "STOP": "2023-07-15T11:10:00Z",
+        "PATIENT": "P001",
+        "ORGANIZATION": "ORG001",
+        "PROVIDER": "PRV002",
+        "PAYER": "PR001",
+        "ENCOUNTERCLASS": "ambulatory",
+        "CODE": 185349003.0,
+        "DESCRIPTION": "Routine visit / blood pressure review",
+        "BASE_ENCOUNTER_COST": 85.0,
+        "TOTAL_CLAIM_COST": 200.0,
+        "PAYER_COVERAGE": 160.0,
+        "REASONCODE": 59621000.0,
+        "REASONDESCRIPTION": "Essential hypertension"
+      }
+    ],
+    "raw_imaging_studies": [
+      {
+        "Id": "IMG004",
+        "DATE": "2022-03-10",
+        "PATIENT": "P001",
+        "ENCOUNTER": "E001",
+        "SERIES_UID": "1.2.840.113619.2.55.3.604688433.781.1646907400.1",
+        "BODYSITE_CODE": 38266002,
+        "BODYSITE_DESCRIPTION": "Abdomen",
+        "MODALITY_CODE": "CT",
+        "MODALITY_DESCRIPTION": "Computed Tomography",
+        "INSTANCE_UID": "1.2.840.113619.2.55.3.604688433.781.1646907400.2",
+        "SOP_CODE": "1.2.840.10008.5.1.4.1.1.2",
+        "SOP_DESCRIPTION": "CT image storage",
+        "PROCEDURE_CODE": "24727-0"
+      }
+    ],
+    "raw_immunizations": [
+      {
+        "DATE": "2022-03-10",
+        "PATIENT": "P001",
+        "ENCOUNTER": "E001",
+        "CODE": 140.0,
+        "DESCRIPTION": "Influenza virus vaccine, seasonal, injectable",
+        "BASE_COST": 18.0
+      },
+      {
+        "DATE": "2023-07-15",
+        "PATIENT": "P001",
+        "ENCOUNTER": "E002",
+        "CODE": 207.0,
+        "DESCRIPTION": "COVID-19 mRNA vaccine booster dose",
+        "BASE_COST": 25.0
+      }
+    ],
+    "raw_supplies": [
+      {
+        "DATE": "2022-03-10",
+        "PATIENT": "P001",
+        "ENCOUNTER": "E001",
+        "CODE": "SUP001",
+        "DESCRIPTION": "Blood glucose test strips",
+        "QUANTITY": 100.0
+      },
+      {
+        "DATE": "2022-03-10",
+        "PATIENT": "P001",
+        "ENCOUNTER": "E001",
+        "CODE": "SUP002",
+        "DESCRIPTION": "Lancets for blood glucose monitoring",
+        "QUANTITY": 100.0
+      }
+    ],
+    "raw_payer_transitions": [
+      {
+        "PATIENT": "P001",
+        "MEMBERID": "MEM-PR001-0001",
+        "START_DATE": "2021-01-01",
+        "END_DATE": null,
+        "PAYER": "PR001",
+        "SECONDARY_PAYER": null,
+        "PLAN_OWNERSHIP": "Individual",
+        "OWNER_NAME": "Rahul Sharma"
+      }
+    ],
+    "demographics": {
+      "Id": "P001",
+      "BIRTHDATE": "1972-06-18",
+      "DEATHDATE": null,
+      "SSN": "111-22-3333",
+      "DRIVERS": "D111223333",
+      "PASSPORT": "P111223333",
+      "PREFIX": "Mr.",
+      "FIRST": "Rahul",
+      "MIDDLE": "Kumar",
+      "LAST": "Sharma",
+      "SUFFIX": null,
+      "MAIDEN": null,
+      "MARITAL": "M",
+      "RACE": "Asian",
+      "ETHNICITY": "Non-Hispanic",
+      "GENDER": "M",
+      "BIRTHPLACE": "New Delhi, India",
+      "ADDRESS": "12 Green Park",
+      "CITY": "New Delhi",
+      "STATE": "DL",
+      "COUNTY": "New Delhi",
+      "FIPS": 110001,
+      "ZIP": 110001,
+      "LAT": 28.558,
+      "LON": 77.2065,
+      "HEALTHCARE_EXPENSES": 12500.5,
+      "HEALTHCARE_COVERAGE": 50000,
+      "INCOME": 900000
+    }
+  },
+  {
+    "patient_id": "P002",
+    "age": 40,
+    "gender": "f",
+    "diagnoses": [
+      "High blood pressure (HTN)",
+      "Chronic kidney disease stage 3 (moderate)"
+    ],
+    "procedures": [
+      "Blood pressure measurement",
+      "Serum creatinine test"
+    ],
+    "medications": [
+      "Lisinopril 5 mg oral tablet"
+    ],
+    "labs": {
+      "Systolic blood pressure": 158.0,
+      "Diastolic blood pressure": 96.0,
+      "Creatinine [Mass/volume] in Serum or Plasma": 1.6
+    },
+    "raw_observations": [
+      {
+        "DATE": "2021-05-20",
+        "PATIENT": "P002",
+        "ENCOUNTER": "E003",
+        "CATEGORY": "vital-signs",
+        "CODE": "8480-6",
+        "DESCRIPTION": "Systolic blood pressure",
+        "VALUE": 158.0,
+        "UNITS": "mm[Hg]",
+        "TYPE": "numeric"
+      },
+      {
+        "DATE": "2021-05-20",
+        "PATIENT": "P002",
+        "ENCOUNTER": "E003",
+        "CATEGORY": "vital-signs",
+        "CODE": "8462-4",
+        "DESCRIPTION": "Diastolic blood pressure",
+        "VALUE": 96.0,
+        "UNITS": "mm[Hg]",
+        "TYPE": "numeric"
+      },
+      {
+        "DATE": "2024-01-18",
+        "PATIENT": "P002",
+        "ENCOUNTER": "E004",
+        "CATEGORY": "laboratory",
+        "CODE": "2160-0",
+        "DESCRIPTION": "Creatinine [Mass/volume] in Serum or Plasma",
+        "VALUE": 1.6,
+        "UNITS": "mg/dL",
+        "TYPE": "numeric"
+      }
+    ],
+    "raw_conditions": [
+      {
+        "START": "2021-05-20",
+        "STOP": null,
+        "PATIENT": "P002",
+        "ENCOUNTER": "E003",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 38341003.0,
+        "DESCRIPTION": "High blood pressure (HTN)"
+      },
+      {
+        "START": "2024-01-18",
+        "STOP": null,
+        "PATIENT": "P002",
+        "ENCOUNTER": "E004",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 709044004.0,
+        "DESCRIPTION": "Chronic kidney disease stage 3 (moderate)"
+      }
+    ],
+    "raw_medications": [
+      {
+        "START": "2021-05-22",
+        "STOP": null,
+        "PATIENT": "P002",
+        "PAYER": "PR002",
+        "ENCOUNTER": "E003",
+        "CODE": 316049.0,
+        "DESCRIPTION": "Lisinopril 5 mg oral tablet",
+        "BASE_COST": 7.5,
+        "PAYER_COVERAGE": 6.0,
+        "DISPENSES": 8.0,
+        "TOTALCOST": 60.0,
+        "REASONCODE": 38341003.0,
+        "REASONDESCRIPTION": "High blood pressure (HTN)"
+      }
+    ],
+    "raw_procedures": [
+      {
+        "START": "2021-05-20",
+        "STOP": "2021-05-20",
+        "PATIENT": "P002",
+        "ENCOUNTER": "E003",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 75367002.0,
+        "DESCRIPTION": "Blood pressure measurement",
+        "BASE_COST": 15.0,
+        "REASONCODE": 38341003.0,
+        "REASONDESCRIPTION": "High blood pressure (HTN)"
+      },
+      {
+        "START": "2024-01-18",
+        "STOP": "2024-01-18",
+        "PATIENT": "P002",
+        "ENCOUNTER": "E004",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 313191000.0,
+        "DESCRIPTION": "Serum creatinine test",
+        "BASE_COST": 25.0,
+        "REASONCODE": 709044004.0,
+        "REASONDESCRIPTION": "Chronic kidney disease stage 3 (moderate)"
+      }
+    ],
+    "raw_allergies": [
+      {
+        "START": "2021-06-05",
+        "STOP": null,
+        "PATIENT": "P002",
+        "ENCOUNTER": "E003",
+        "CODE": 91936005,
+        "SYSTEM": "http://snomed.info/sct",
+        "DESCRIPTION": "Allergy to ACE inhibitors",
+        "TYPE": "allergy",
+        "CATEGORY": "medication",
+        "REACTION1": "Angioedema",
+        "DESCRIPTION1": "Swelling of lips/face",
+        "SEVERITY1": "Severe",
+        "REACTION2": "Urticaria",
+        "DESCRIPTION2": "Hives / rash",
+        "SEVERITY2": "Moderate"
+      }
+    ],
+    "raw_careplans": [
+      {
+        "Id": "CP002",
+        "START": "2021-05-20",
+        "STOP": null,
+        "PATIENT": "P002",
+        "ENCOUNTER": "E003",
+        "CODE": 735984006,
+        "DESCRIPTION": "Hypertension management plan",
+        "REASONCODE": 38341003,
+        "REASONDESCRIPTION": "Hypertension"
+      },
+      {
+        "Id": "CP003",
+        "START": "2024-01-18",
+        "STOP": null,
+        "PATIENT": "P002",
+        "ENCOUNTER": "E004",
+        "CODE": 734163000,
+        "DESCRIPTION": "Chronic kidney disease monitoring plan",
+        "REASONCODE": 709044004,
+        "REASONDESCRIPTION": "Chronic kidney disease stage 3"
+      }
+    ],
+    "raw_claims": [
+      {
+        "Id": "CLM002",
+        "PATIENTID": "P002",
+        "PROVIDERID": "PRV002",
+        "PRIMARYPATIENTINSURANCEID": "PR002",
+        "SECONDARYPATIENTINSURANCEID": null,
+        "DEPARTMENTID": "DEP02",
+        "PATIENTDEPARTMENTID": "DEP02",
+        "DIAGNOSIS1": "I10",
+        "DIAGNOSIS2": "E78.5",
+        "DIAGNOSIS3": null,
+        "DIAGNOSIS4": null,
+        "DIAGNOSIS5": "R60.0",
+        "DIAGNOSIS6": null,
+        "DIAGNOSIS7": null,
+        "DIAGNOSIS8": null,
+        "REFERRINGPROVIDERID": null,
+        "APPOINTMENTID": "PRV003",
+        "CURRENTILLNESSDATE": "APT002",
+        "SERVICEDATE": "2021-05-15",
+        "SUPERVISINGPROVIDERID": "2021-05-20",
+        "STATUS1": "PRV002",
+        "STATUS2": "PAID",
+        "STATUSP": null,
+        "OUTSTANDING1": "PAID",
+        "OUTSTANDING2": 0,
+        "OUTSTANDINGP": 0,
+        "LASTBILLEDDATE1": 0,
+        "LASTBILLEDDATE2": "2021-05-28",
+        "LASTBILLEDDATEP": null,
+        "HEALTHCARECLAIMTYPEID1": "2021-05-28",
+        "HEALTHCARECLAIMTYPEID2": "OUTPATIENT"
+      },
+      {
+        "Id": "CLM003",
+        "PATIENTID": "P002",
+        "PROVIDERID": "PRV002",
+        "PRIMARYPATIENTINSURANCEID": "PR002",
+        "SECONDARYPATIENTINSURANCEID": null,
+        "DEPARTMENTID": "DEP03",
+        "PATIENTDEPARTMENTID": "DEP03",
+        "DIAGNOSIS1": "N18.3",
+        "DIAGNOSIS2": "I10",
+        "DIAGNOSIS3": "E11.9",
+        "DIAGNOSIS4": null,
+        "DIAGNOSIS5": "R60.0",
+        "DIAGNOSIS6": null,
+        "DIAGNOSIS7": null,
+        "DIAGNOSIS8": null,
+        "REFERRINGPROVIDERID": null,
+        "APPOINTMENTID": "PRV004",
+        "CURRENTILLNESSDATE": "APT003",
+        "SERVICEDATE": "2024-01-10",
+        "SUPERVISINGPROVIDERID": "2024-01-18",
+        "STATUS1": "PRV002",
+        "STATUS2": "PENDING",
+        "STATUSP": null,
+        "OUTSTANDING1": "DUE",
+        "OUTSTANDING2": 450,
+        "OUTSTANDINGP": 0,
+        "LASTBILLEDDATE1": 450,
+        "LASTBILLEDDATE2": "2024-02-05",
+        "LASTBILLEDDATEP": null,
+        "HEALTHCARECLAIMTYPEID1": "2024-02-05",
+        "HEALTHCARECLAIMTYPEID2": "OUTPATIENT"
+      }
+    ],
+    "raw_devices": [
+      {
+        "START": "2021-05-20",
+        "STOP": null,
+        "PATIENT": "P002",
+        "ENCOUNTER": "E003",
+        "CODE": 706685006,
+        "DESCRIPTION": "Home blood pressure monitor device",
+        "UDI": "(01)08912345000022(17)280101(10)BP-P002"
+      }
+    ],
+    "raw_encounters": [
+      {
+        "Id": "E003",
+        "START": "2021-05-20T08:40:00Z",
+        "STOP": "2021-05-20T09:20:00Z",
+        "PATIENT": "P002",
+        "ORGANIZATION": "ORG002",
+        "PROVIDER": "PRV003",
+        "PAYER": "PR002",
+        "ENCOUNTERCLASS": "ambulatory",
+        "CODE": 185349003.0,
+        "DESCRIPTION": "Primary care visit (hypertension)",
+        "BASE_ENCOUNTER_COST": 80.0,
+        "TOTAL_CLAIM_COST": 190.0,
+        "PAYER_COVERAGE": 150.0,
+        "REASONCODE": 38341003.0,
+        "REASONDESCRIPTION": "High blood pressure (HTN)"
+      },
+      {
+        "Id": "E004",
+        "START": "2024-01-18T13:10:00Z",
+        "STOP": "2024-01-18T14:05:00Z",
+        "PATIENT": "P002",
+        "ORGANIZATION": "ORG002",
+        "PROVIDER": "PRV004",
+        "PAYER": "PR002",
+        "ENCOUNTERCLASS": "ambulatory",
+        "CODE": 185349003.0,
+        "DESCRIPTION": "Nephrology consult / kidney function evaluation",
+        "BASE_ENCOUNTER_COST": 140.0,
+        "TOTAL_CLAIM_COST": 360.0,
+        "PAYER_COVERAGE": 280.0,
+        "REASONCODE": 709044004.0,
+        "REASONDESCRIPTION": "Chronic kidney disease stage 3 (moderate)"
+      }
+    ],
+    "raw_imaging_studies": [
+      {
+        "Id": "IMG002",
+        "DATE": "2024-01-18",
+        "PATIENT": "P002",
+        "ENCOUNTER": "E004",
+        "SERIES_UID": "1.2.840.113619.2.55.3.604688433.781.1705577400.1",
+        "BODYSITE_CODE": 181414000,
+        "BODYSITE_DESCRIPTION": "Kidney",
+        "MODALITY_CODE": "US",
+        "MODALITY_DESCRIPTION": "Ultrasound",
+        "INSTANCE_UID": "1.2.840.113619.2.55.3.604688433.781.1705577400.2",
+        "SOP_CODE": "1.2.840.10008.5.1.4.1.1.6.1",
+        "SOP_DESCRIPTION": "Ultrasound image storage",
+        "PROCEDURE_CODE": "30789-7"
+      }
+    ],
+    "raw_immunizations": [
+      {
+        "DATE": "2021-05-20",
+        "PATIENT": "P002",
+        "ENCOUNTER": "E003",
+        "CODE": 140.0,
+        "DESCRIPTION": "Influenza virus vaccine, seasonal, injectable",
+        "BASE_COST": 18.0
+      },
+      {
+        "DATE": "2024-01-18",
+        "PATIENT": "P002",
+        "ENCOUNTER": "E004",
+        "CODE": 33.0,
+        "DESCRIPTION": "Pneumococcal polysaccharide vaccine (PPSV23)",
+        "BASE_COST": 45.0
+      }
+    ],
+    "raw_supplies": [
+      {
+        "DATE": "2021-05-20",
+        "PATIENT": "P002",
+        "ENCOUNTER": "E003",
+        "CODE": "SUP010",
+        "DESCRIPTION": "Home blood pressure monitor (cuff)",
+        "QUANTITY": 1.0
+      },
+      {
+        "DATE": "2024-01-18",
+        "PATIENT": "P002",
+        "ENCOUNTER": "E004",
+        "CODE": "SUP011",
+        "DESCRIPTION": "Compression stockings (edema support)",
+        "QUANTITY": 2.0
+      }
+    ],
+    "raw_payer_transitions": [
+      {
+        "PATIENT": "P002",
+        "MEMBERID": "MEM-PR002-0002",
+        "START_DATE": "2020-06-01",
+        "END_DATE": "2023-12-31",
+        "PAYER": "PR002",
+        "SECONDARY_PAYER": null,
+        "PLAN_OWNERSHIP": "Family",
+        "OWNER_NAME": "Ananya Verma"
+      },
+      {
+        "PATIENT": "P002",
+        "MEMBERID": "MEM-PR002-0002B",
+        "START_DATE": "2024-01-01",
+        "END_DATE": null,
+        "PAYER": "PR002",
+        "SECONDARY_PAYER": null,
+        "PLAN_OWNERSHIP": "Family",
+        "OWNER_NAME": "Ananya Verma"
+      }
+    ],
+    "demographics": {
+      "Id": "P002",
+      "BIRTHDATE": "1985-11-03",
+      "DEATHDATE": null,
+      "SSN": "222-33-4444",
+      "DRIVERS": "D222334444",
+      "PASSPORT": "P222334444",
+      "PREFIX": "Ms.",
+      "FIRST": "Ananya",
+      "MIDDLE": "R",
+      "LAST": "Verma",
+      "SUFFIX": null,
+      "MAIDEN": null,
+      "MARITAL": "S",
+      "RACE": "Asian",
+      "ETHNICITY": "Non-Hispanic",
+      "GENDER": "F",
+      "BIRTHPLACE": "Mumbai, India",
+      "ADDRESS": "45 Bandra West",
+      "CITY": "Mumbai",
+      "STATE": "MH",
+      "COUNTY": "Mumbai Suburban",
+      "FIPS": 400050,
+      "ZIP": 400050,
+      "LAT": 19.06,
+      "LON": 72.83,
+      "HEALTHCARE_EXPENSES": 8600.0,
+      "HEALTHCARE_COVERAGE": 40000,
+      "INCOME": 650000
+    }
+  },
+  {
+    "patient_id": "P003",
+    "age": 29,
+    "gender": "m",
+    "diagnoses": [
+      "Bronchial asthma (mild intermittent)",
+      "Acute bronchitis (viral)"
+    ],
+    "procedures": [
+      "Spirometry (lung function test)",
+      "Nebulizer therapy administered"
+    ],
+    "medications": [
+      "Salbutamol inhaler 100 mcg/puff (PRN)",
+      "Prednisolone 20 mg tablets (short course)"
+    ],
+    "labs": {
+      "Oxygen saturation in Arterial blood by Pulse oximetry": 95.0,
+      "Respiratory rate": 22.0,
+      "Systolic blood pressure": 122.0,
+      "Diastolic blood pressure": 78.0
+    },
+    "raw_observations": [
+      {
+        "DATE": "2020-09-05",
+        "PATIENT": "P003",
+        "ENCOUNTER": "E005",
+        "CATEGORY": "vital-signs",
+        "CODE": "59408-5",
+        "DESCRIPTION": "Oxygen saturation in Arterial blood by Pulse oximetry",
+        "VALUE": 95.0,
+        "UNITS": "%",
+        "TYPE": "numeric"
+      },
+      {
+        "DATE": "2020-09-05",
+        "PATIENT": "P003",
+        "ENCOUNTER": "E005",
+        "CATEGORY": "vital-signs",
+        "CODE": "9279-1",
+        "DESCRIPTION": "Respiratory rate",
+        "VALUE": 22.0,
+        "UNITS": "/min",
+        "TYPE": "numeric"
+      },
+      {
+        "DATE": "2023-11-22",
+        "PATIENT": "P003",
+        "ENCOUNTER": "E006",
+        "CATEGORY": "vital-signs",
+        "CODE": "8480-6",
+        "DESCRIPTION": "Systolic blood pressure",
+        "VALUE": 122.0,
+        "UNITS": "mm[Hg]",
+        "TYPE": "numeric"
+      },
+      {
+        "DATE": "2023-11-22",
+        "PATIENT": "P003",
+        "ENCOUNTER": "E006",
+        "CATEGORY": "vital-signs",
+        "CODE": "8462-4",
+        "DESCRIPTION": "Diastolic blood pressure",
+        "VALUE": 78.0,
+        "UNITS": "mm[Hg]",
+        "TYPE": "numeric"
+      }
+    ],
+    "raw_conditions": [
+      {
+        "START": "2020-09-05",
+        "STOP": null,
+        "PATIENT": "P003",
+        "ENCOUNTER": "E005",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 195967001.0,
+        "DESCRIPTION": "Bronchial asthma (mild intermittent)"
+      },
+      {
+        "START": "2023-11-22",
+        "STOP": null,
+        "PATIENT": "P003",
+        "ENCOUNTER": "E006",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 10509002.0,
+        "DESCRIPTION": "Acute bronchitis (viral)"
+      }
+    ],
+    "raw_medications": [
+      {
+        "START": "2020-09-06",
+        "STOP": null,
+        "PATIENT": "P003",
+        "PAYER": "PR003",
+        "ENCOUNTER": "E005",
+        "CODE": 617314.0,
+        "DESCRIPTION": "Salbutamol inhaler 100 mcg/puff (PRN)",
+        "BASE_COST": 15.4,
+        "PAYER_COVERAGE": 12.1,
+        "DISPENSES": 3.0,
+        "TOTALCOST": 46.2,
+        "REASONCODE": 195967001.0,
+        "REASONDESCRIPTION": "Bronchial asthma (mild intermittent)"
+      },
+      {
+        "START": "2023-11-23",
+        "STOP": "2023-12-05",
+        "PATIENT": "P003",
+        "PAYER": "PR003",
+        "ENCOUNTER": "E006",
+        "CODE": 849574.0,
+        "DESCRIPTION": "Prednisolone 20 mg tablets (short course)",
+        "BASE_COST": 9.3,
+        "PAYER_COVERAGE": 7.1,
+        "DISPENSES": 1.0,
+        "TOTALCOST": 9.3,
+        "REASONCODE": 10509002.0,
+        "REASONDESCRIPTION": "Acute bronchitis (viral)"
+      }
+    ],
+    "raw_procedures": [
+      {
+        "START": "2020-09-05",
+        "STOP": "2020-09-05",
+        "PATIENT": "P003",
+        "ENCOUNTER": "E005",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 2667000.0,
+        "DESCRIPTION": "Spirometry (lung function test)",
+        "BASE_COST": 60.0,
+        "REASONCODE": 195967001.0,
+        "REASONDESCRIPTION": "Bronchial asthma (mild intermittent)"
+      },
+      {
+        "START": "2023-11-22",
+        "STOP": "2023-11-22",
+        "PATIENT": "P003",
+        "ENCOUNTER": "E006",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 225358003.0,
+        "DESCRIPTION": "Nebulizer therapy administered",
+        "BASE_COST": 45.0,
+        "REASONCODE": 10509002.0,
+        "REASONDESCRIPTION": "Acute bronchitis (viral)"
+      }
+    ],
+    "raw_allergies": [
+      {
+        "START": "2020-09-06",
+        "STOP": null,
+        "PATIENT": "P003",
+        "ENCOUNTER": "E005",
+        "CODE": 409137002,
+        "SYSTEM": "http://snomed.info/sct",
+        "DESCRIPTION": "Sensitivity to beta-agonist inhalers",
+        "TYPE": "adverse reaction",
+        "CATEGORY": "medication",
+        "REACTION1": "Tremor",
+        "DESCRIPTION1": "Shakiness after inhaler use",
+        "SEVERITY1": "Mild",
+        "REACTION2": "Palpitations",
+        "DESCRIPTION2": "Fast heartbeat",
+        "SEVERITY2": "Mild"
+      }
+    ],
+    "raw_careplans": [
+      {
+        "Id": "CP004",
+        "START": "2020-09-05",
+        "STOP": null,
+        "PATIENT": "P003",
+        "ENCOUNTER": "E005",
+        "CODE": 698360004,
+        "DESCRIPTION": "Asthma action plan",
+        "REASONCODE": 195967001,
+        "REASONDESCRIPTION": "Asthma"
+      }
+    ],
+    "raw_claims": [
+      {
+        "Id": "CLM004",
+        "PATIENTID": "P003",
+        "PROVIDERID": "PRV003",
+        "PRIMARYPATIENTINSURANCEID": "PR003",
+        "SECONDARYPATIENTINSURANCEID": null,
+        "DEPARTMENTID": "DEP04",
+        "PATIENTDEPARTMENTID": "DEP04",
+        "DIAGNOSIS1": "J45.909",
+        "DIAGNOSIS2": "J20.9",
+        "DIAGNOSIS3": null,
+        "DIAGNOSIS4": null,
+        "DIAGNOSIS5": "Z79.51",
+        "DIAGNOSIS6": null,
+        "DIAGNOSIS7": null,
+        "DIAGNOSIS8": null,
+        "REFERRINGPROVIDERID": null,
+        "APPOINTMENTID": "PRV003",
+        "CURRENTILLNESSDATE": "APT004",
+        "SERVICEDATE": "2020-09-01",
+        "SUPERVISINGPROVIDERID": "2020-09-05",
+        "STATUS1": "PRV003",
+        "STATUS2": "PAID",
+        "STATUSP": null,
+        "OUTSTANDING1": "PAID",
+        "OUTSTANDING2": 0,
+        "OUTSTANDINGP": 0,
+        "LASTBILLEDDATE1": 0,
+        "LASTBILLEDDATE2": "2020-09-12",
+        "LASTBILLEDDATEP": null,
+        "HEALTHCARECLAIMTYPEID1": "2020-09-12",
+        "HEALTHCARECLAIMTYPEID2": "OUTPATIENT"
+      },
+      {
+        "Id": "CLM005",
+        "PATIENTID": "P003",
+        "PROVIDERID": "PRV003",
+        "PRIMARYPATIENTINSURANCEID": "PR003",
+        "SECONDARYPATIENTINSURANCEID": null,
+        "DEPARTMENTID": "DEP04",
+        "PATIENTDEPARTMENTID": "DEP04",
+        "DIAGNOSIS1": "J45.909",
+        "DIAGNOSIS2": "R06.2",
+        "DIAGNOSIS3": null,
+        "DIAGNOSIS4": null,
+        "DIAGNOSIS5": "Z79.899",
+        "DIAGNOSIS6": null,
+        "DIAGNOSIS7": null,
+        "DIAGNOSIS8": null,
+        "REFERRINGPROVIDERID": null,
+        "APPOINTMENTID": "PRV001",
+        "CURRENTILLNESSDATE": "APT005",
+        "SERVICEDATE": "2023-11-18",
+        "SUPERVISINGPROVIDERID": "2023-11-22",
+        "STATUS1": "PRV003",
+        "STATUS2": "PAID",
+        "STATUSP": null,
+        "OUTSTANDING1": "PAID",
+        "OUTSTANDING2": 0,
+        "OUTSTANDINGP": 0,
+        "LASTBILLEDDATE1": 0,
+        "LASTBILLEDDATE2": "2023-12-01",
+        "LASTBILLEDDATEP": null,
+        "HEALTHCARECLAIMTYPEID1": "2023-12-01",
+        "HEALTHCARECLAIMTYPEID2": "OUTPATIENT"
+      }
+    ],
+    "raw_devices": [
+      {
+        "START": "2020-09-05",
+        "STOP": null,
+        "PATIENT": "P003",
+        "ENCOUNTER": "E005",
+        "CODE": 705088002,
+        "DESCRIPTION": "Inhaler spacer device",
+        "UDI": "(01)08912345000033(17)280101(10)SPACER-P003"
+      }
+    ],
+    "raw_encounters": [
+      {
+        "Id": "E005",
+        "START": "2020-09-05T17:20:00Z",
+        "STOP": "2020-09-05T18:05:00Z",
+        "PATIENT": "P003",
+        "ORGANIZATION": "ORG003",
+        "PROVIDER": "PRV005",
+        "PAYER": "PR003",
+        "ENCOUNTERCLASS": "ambulatory",
+        "CODE": 185349003.0,
+        "DESCRIPTION": "Outpatient visit for wheezing / asthma review",
+        "BASE_ENCOUNTER_COST": 95.0,
+        "TOTAL_CLAIM_COST": 240.0,
+        "PAYER_COVERAGE": 200.0,
+        "REASONCODE": 195967001.0,
+        "REASONDESCRIPTION": "Bronchial asthma (mild intermittent)"
+      },
+      {
+        "Id": "E006",
+        "START": "2023-11-22T21:10:00Z",
+        "STOP": "2023-11-22T22:05:00Z",
+        "PATIENT": "P003",
+        "ORGANIZATION": "ORG003",
+        "PROVIDER": "PRV006",
+        "PAYER": "PR003",
+        "ENCOUNTERCLASS": "emergency",
+        "CODE": 50849002.0,
+        "DESCRIPTION": "Emergency visit for cough and shortness of breath",
+        "BASE_ENCOUNTER_COST": 210.0,
+        "TOTAL_CLAIM_COST": 780.0,
+        "PAYER_COVERAGE": 620.0,
+        "REASONCODE": 10509002.0,
+        "REASONDESCRIPTION": "Acute bronchitis (viral)"
+      }
+    ],
+    "raw_imaging_studies": [
+      {
+        "Id": "IMG001",
+        "DATE": "2023-11-22",
+        "PATIENT": "P003",
+        "ENCOUNTER": "E006",
+        "SERIES_UID": "1.2.840.113619.2.55.3.604688433.781.1700687400.1",
+        "BODYSITE_CODE": 39607008,
+        "BODYSITE_DESCRIPTION": "Chest",
+        "MODALITY_CODE": "DX",
+        "MODALITY_DESCRIPTION": "Digital Radiography",
+        "INSTANCE_UID": "1.2.840.113619.2.55.3.604688433.781.1700687400.2",
+        "SOP_CODE": "1.2.840.10008.5.1.4.1.1.1",
+        "SOP_DESCRIPTION": "Computed Radiography image storage",
+        "PROCEDURE_CODE": "36626-2"
+      }
+    ],
+    "raw_immunizations": [
+      {
+        "DATE": "2020-09-05",
+        "PATIENT": "P003",
+        "ENCOUNTER": "E005",
+        "CODE": 140.0,
+        "DESCRIPTION": "Influenza virus vaccine, seasonal, injectable",
+        "BASE_COST": 18.0
+      },
+      {
+        "DATE": "2023-11-22",
+        "PATIENT": "P003",
+        "ENCOUNTER": "E006",
+        "CODE": 207.0,
+        "DESCRIPTION": "COVID-19 mRNA vaccine booster dose",
+        "BASE_COST": 25.0
+      }
+    ],
+    "raw_supplies": [
+      {
+        "DATE": "2020-09-05",
+        "PATIENT": "P003",
+        "ENCOUNTER": "E005",
+        "CODE": "SUP020",
+        "DESCRIPTION": "Spacer device for inhaler use",
+        "QUANTITY": 1.0
+      },
+      {
+        "DATE": "2023-11-22",
+        "PATIENT": "P003",
+        "ENCOUNTER": "E006",
+        "CODE": "SUP021",
+        "DESCRIPTION": "Disposable face mask (clinical use)",
+        "QUANTITY": 5.0
+      }
+    ],
+    "raw_payer_transitions": [
+      {
+        "PATIENT": "P003",
+        "MEMBERID": "MEM-PR003-0003",
+        "START_DATE": "2019-01-01",
+        "END_DATE": null,
+        "PAYER": "PR003",
+        "SECONDARY_PAYER": null,
+        "PLAN_OWNERSHIP": "Individual",
+        "OWNER_NAME": "Arjun Mehta"
+      }
+    ],
+    "demographics": {
+      "Id": "P003",
+      "BIRTHDATE": "1996-02-27",
+      "DEATHDATE": null,
+      "SSN": "333-44-5555",
+      "DRIVERS": "D333445555",
+      "PASSPORT": "P333445555",
+      "PREFIX": "Mr.",
+      "FIRST": "Arjun",
+      "MIDDLE": "Singh",
+      "LAST": "Mehta",
+      "SUFFIX": null,
+      "MAIDEN": null,
+      "MARITAL": "S",
+      "RACE": "Asian",
+      "ETHNICITY": "Non-Hispanic",
+      "GENDER": "M",
+      "BIRTHPLACE": "Bengaluru, India",
+      "ADDRESS": "77 Indiranagar",
+      "CITY": "Bengaluru",
+      "STATE": "KA",
+      "COUNTY": "Bangalore Urban",
+      "FIPS": 560038,
+      "ZIP": 560038,
+      "LAT": 12.9719,
+      "LON": 77.6412,
+      "HEALTHCARE_EXPENSES": 4200.75,
+      "HEALTHCARE_COVERAGE": 30000,
+      "INCOME": 520000
+    }
+  },
+  {
+    "patient_id": "P004",
+    "age": 67,
+    "gender": "f",
+    "diagnoses": [
+      "Non-insulin dependent diabetes mellitus",
+      "Essential hypertension",
+      "Chronic kidney disease stage 4 (severe)"
+    ],
+    "procedures": [
+      "HbA1c measurement",
+      "Blood pressure measurement",
+      "Hemodialysis procedure (outpatient)"
+    ],
+    "medications": [
+      "Metformin XR 500 mg extended-release tablet",
+      "Lisinopril 10 mg oral tablet",
+      "Insulin glargine injection 100 units/mL (daily)"
+    ],
+    "labs": {
+      "HbA1c (glycated hemoglobin)": 6.9,
+      "Serum creatinine": 2.4,
+      "Systolic blood pressure": 164.0,
+      "Diastolic blood pressure": 102.0
+    },
+    "raw_observations": [
+      {
+        "DATE": "2019-02-14",
+        "PATIENT": "P004",
+        "ENCOUNTER": "E007",
+        "CATEGORY": "laboratory",
+        "CODE": "4548-4",
+        "DESCRIPTION": "HbA1c (glycated hemoglobin)",
+        "VALUE": 6.9,
+        "UNITS": "%",
+        "TYPE": "numeric"
+      },
+      {
+        "DATE": "2022-08-30",
+        "PATIENT": "P004",
+        "ENCOUNTER": "E009",
+        "CATEGORY": "laboratory",
+        "CODE": "2160-0",
+        "DESCRIPTION": "Serum creatinine",
+        "VALUE": 2.4,
+        "UNITS": "mg/dL",
+        "TYPE": "numeric"
+      },
+      {
+        "DATE": "2020-01-10",
+        "PATIENT": "P004",
+        "ENCOUNTER": "E008",
+        "CATEGORY": "vital-signs",
+        "CODE": "8480-6",
+        "DESCRIPTION": "Systolic blood pressure",
+        "VALUE": 164.0,
+        "UNITS": "mm[Hg]",
+        "TYPE": "numeric"
+      },
+      {
+        "DATE": "2020-01-10",
+        "PATIENT": "P004",
+        "ENCOUNTER": "E008",
+        "CATEGORY": "vital-signs",
+        "CODE": "8462-4",
+        "DESCRIPTION": "Diastolic blood pressure",
+        "VALUE": 102.0,
+        "UNITS": "mm[Hg]",
+        "TYPE": "numeric"
+      }
+    ],
+    "raw_conditions": [
+      {
+        "START": "2019-02-14",
+        "STOP": null,
+        "PATIENT": "P004",
+        "ENCOUNTER": "E007",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 44054006.0,
+        "DESCRIPTION": "Non-insulin dependent diabetes mellitus"
+      },
+      {
+        "START": "2018-06-01",
+        "STOP": null,
+        "PATIENT": "P004",
+        "ENCOUNTER": "E008",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 59621000.0,
+        "DESCRIPTION": "Essential hypertension"
+      },
+      {
+        "START": "2022-08-30",
+        "STOP": null,
+        "PATIENT": "P004",
+        "ENCOUNTER": "E009",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 709044004.0,
+        "DESCRIPTION": "Chronic kidney disease stage 4 (severe)"
+      }
+    ],
+    "raw_medications": [
+      {
+        "START": "2019-02-16",
+        "STOP": null,
+        "PATIENT": "P004",
+        "PAYER": "PR004",
+        "ENCOUNTER": "E007",
+        "CODE": 860975.0,
+        "DESCRIPTION": "Metformin XR 500 mg extended-release tablet",
+        "BASE_COST": 14.0,
+        "PAYER_COVERAGE": 11.0,
+        "DISPENSES": 12.0,
+        "TOTALCOST": 168.0,
+        "REASONCODE": 44054006.0,
+        "REASONDESCRIPTION": "Non-insulin dependent diabetes mellitus"
+      },
+      {
+        "START": "2020-01-10",
+        "STOP": null,
+        "PATIENT": "P004",
+        "PAYER": "PR004",
+        "ENCOUNTER": "E008",
+        "CODE": 316049.0,
+        "DESCRIPTION": "Lisinopril 10 mg oral tablet",
+        "BASE_COST": 8.1,
+        "PAYER_COVERAGE": 6.1,
+        "DISPENSES": 10.0,
+        "TOTALCOST": 81.0,
+        "REASONCODE": 59621000.0,
+        "REASONDESCRIPTION": "Essential hypertension"
+      },
+      {
+        "START": "2022-09-01",
+        "STOP": null,
+        "PATIENT": "P004",
+        "PAYER": "PR004",
+        "ENCOUNTER": "E009",
+        "CODE": 440540.0,
+        "DESCRIPTION": "Insulin glargine injection 100 units/mL (daily)",
+        "BASE_COST": 48.0,
+        "PAYER_COVERAGE": 30.0,
+        "DISPENSES": 6.0,
+        "TOTALCOST": 288.0,
+        "REASONCODE": 44054006.0,
+        "REASONDESCRIPTION": "Non-insulin dependent diabetes mellitus"
+      }
+    ],
+    "raw_procedures": [
+      {
+        "START": "2019-02-14",
+        "STOP": "2019-02-14",
+        "PATIENT": "P004",
+        "ENCOUNTER": "E007",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 43396009.0,
+        "DESCRIPTION": "HbA1c measurement",
+        "BASE_COST": 35.0,
+        "REASONCODE": 44054006.0,
+        "REASONDESCRIPTION": "Non-insulin dependent diabetes mellitus"
+      },
+      {
+        "START": "2020-01-10",
+        "STOP": "2020-01-10",
+        "PATIENT": "P004",
+        "ENCOUNTER": "E008",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 75367002.0,
+        "DESCRIPTION": "Blood pressure measurement",
+        "BASE_COST": 15.0,
+        "REASONCODE": 59621000.0,
+        "REASONDESCRIPTION": "Essential hypertension"
+      },
+      {
+        "START": "2022-08-30",
+        "STOP": "2022-08-30",
+        "PATIENT": "P004",
+        "ENCOUNTER": "E009",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 108241001.0,
+        "DESCRIPTION": "Hemodialysis procedure (outpatient)",
+        "BASE_COST": 250.0,
+        "REASONCODE": 709044004.0,
+        "REASONDESCRIPTION": "Chronic kidney disease stage 4 (severe)"
+      }
+    ],
+    "raw_allergies": [
+      {
+        "START": "2022-09-02",
+        "STOP": null,
+        "PATIENT": "P004",
+        "ENCOUNTER": "E009",
+        "CODE": 294954006,
+        "SYSTEM": "http://snomed.info/sct",
+        "DESCRIPTION": "Allergy to insulin preparation",
+        "TYPE": "allergy",
+        "CATEGORY": "medication",
+        "REACTION1": "Rash",
+        "DESCRIPTION1": "Injection site rash",
+        "SEVERITY1": "Moderate",
+        "REACTION2": "Pruritus",
+        "DESCRIPTION2": "Itching",
+        "SEVERITY2": "Mild"
+      }
+    ],
+    "raw_careplans": [
+      {
+        "Id": "CP005",
+        "START": "2019-02-14",
+        "STOP": null,
+        "PATIENT": "P004",
+        "ENCOUNTER": "E007",
+        "CODE": 734163000,
+        "DESCRIPTION": "Renal care plan (CKD management)",
+        "REASONCODE": 709044004,
+        "REASONDESCRIPTION": "Chronic kidney disease stage 4"
+      }
+    ],
+    "raw_claims": [
+      {
+        "Id": "CLM006",
+        "PATIENTID": "P004",
+        "PROVIDERID": "PRV004",
+        "PRIMARYPATIENTINSURANCEID": "PR004",
+        "SECONDARYPATIENTINSURANCEID": "PR002",
+        "DEPARTMENTID": "DEP05",
+        "PATIENTDEPARTMENTID": "DEP05",
+        "DIAGNOSIS1": "N18.4",
+        "DIAGNOSIS2": "E11.22",
+        "DIAGNOSIS3": "I10",
+        "DIAGNOSIS4": null,
+        "DIAGNOSIS5": "D63.1",
+        "DIAGNOSIS6": null,
+        "DIAGNOSIS7": null,
+        "DIAGNOSIS8": null,
+        "REFERRINGPROVIDERID": null,
+        "APPOINTMENTID": "PRV004",
+        "CURRENTILLNESSDATE": "APT006",
+        "SERVICEDATE": "2019-02-10",
+        "SUPERVISINGPROVIDERID": "2019-02-14",
+        "STATUS1": "PRV004",
+        "STATUS2": "DENIED",
+        "STATUSP": null,
+        "OUTSTANDING1": "PARTIAL",
+        "OUTSTANDING2": 1200,
+        "OUTSTANDINGP": 300,
+        "LASTBILLEDDATE1": 1500,
+        "LASTBILLEDDATE2": "2019-03-01",
+        "LASTBILLEDDATEP": "2019-03-01",
+        "HEALTHCARECLAIMTYPEID1": "2019-03-01",
+        "HEALTHCARECLAIMTYPEID2": "INPATIENT"
+      }
+    ],
+    "raw_devices": [
+      {
+        "START": "2022-08-30",
+        "STOP": null,
+        "PATIENT": "P004",
+        "ENCOUNTER": "E009",
+        "CODE": 467709005,
+        "DESCRIPTION": "Hemodialysis catheter device",
+        "UDI": "(01)08912345000044(17)280101(10)HD-P004"
+      }
+    ],
+    "raw_encounters": [
+      {
+        "Id": "E007",
+        "START": "2019-02-14T09:00:00Z",
+        "STOP": "2019-02-14T09:50:00Z",
+        "PATIENT": "P004",
+        "ORGANIZATION": "ORG004",
+        "PROVIDER": "PRV007",
+        "PAYER": "PR004",
+        "ENCOUNTERCLASS": "ambulatory",
+        "CODE": 185349003.0,
+        "DESCRIPTION": "Diabetes monitoring visit",
+        "BASE_ENCOUNTER_COST": 100.0,
+        "TOTAL_CLAIM_COST": 260.0,
+        "PAYER_COVERAGE": 210.0,
+        "REASONCODE": 44054006.0,
+        "REASONDESCRIPTION": "Non-insulin dependent diabetes mellitus"
+      },
+      {
+        "Id": "E008",
+        "START": "2020-01-10T11:15:00Z",
+        "STOP": "2020-01-10T11:55:00Z",
+        "PATIENT": "P004",
+        "ORGANIZATION": "ORG004",
+        "PROVIDER": "PRV008",
+        "PAYER": "PR004",
+        "ENCOUNTERCLASS": "ambulatory",
+        "CODE": 185349003.0,
+        "DESCRIPTION": "Hypertension follow-up appointment",
+        "BASE_ENCOUNTER_COST": 90.0,
+        "TOTAL_CLAIM_COST": 230.0,
+        "PAYER_COVERAGE": 180.0,
+        "REASONCODE": 59621000.0,
+        "REASONDESCRIPTION": "Essential hypertension"
+      },
+      {
+        "Id": "E009",
+        "START": "2022-08-30T15:05:00Z",
+        "STOP": "2022-08-30T16:10:00Z",
+        "PATIENT": "P004",
+        "ORGANIZATION": "ORG004",
+        "PROVIDER": "PRV009",
+        "PAYER": "PR004",
+        "ENCOUNTERCLASS": "ambulatory",
+        "CODE": 185349003.0,
+        "DESCRIPTION": "CKD management / medication adjustment",
+        "BASE_ENCOUNTER_COST": 150.0,
+        "TOTAL_CLAIM_COST": 420.0,
+        "PAYER_COVERAGE": 320.0,
+        "REASONCODE": 709044004.0,
+        "REASONDESCRIPTION": "Chronic kidney disease stage 4 (severe)"
+      }
+    ],
+    "raw_imaging_studies": [
+      {
+        "Id": "IMG003",
+        "DATE": "2022-08-30",
+        "PATIENT": "P004",
+        "ENCOUNTER": "E009",
+        "SERIES_UID": "1.2.840.113619.2.55.3.604688433.781.1661867400.1",
+        "BODYSITE_CODE": 181414000,
+        "BODYSITE_DESCRIPTION": "Kidney",
+        "MODALITY_CODE": "US",
+        "MODALITY_DESCRIPTION": "Ultrasound",
+        "INSTANCE_UID": "1.2.840.113619.2.55.3.604688433.781.1661867400.2",
+        "SOP_CODE": "1.2.840.10008.5.1.4.1.1.6.1",
+        "SOP_DESCRIPTION": "Ultrasound image storage",
+        "PROCEDURE_CODE": "30789-7"
+      }
+    ],
+    "raw_immunizations": [
+      {
+        "DATE": "2020-01-10",
+        "PATIENT": "P004",
+        "ENCOUNTER": "E008",
+        "CODE": 140.0,
+        "DESCRIPTION": "Influenza virus vaccine, seasonal, injectable",
+        "BASE_COST": 18.0
+      },
+      {
+        "DATE": "2022-08-30",
+        "PATIENT": "P004",
+        "ENCOUNTER": "E009",
+        "CODE": 33.0,
+        "DESCRIPTION": "Pneumococcal polysaccharide vaccine (PPSV23)",
+        "BASE_COST": 45.0
+      }
+    ],
+    "raw_supplies": [
+      {
+        "DATE": "2019-02-14",
+        "PATIENT": "P004",
+        "ENCOUNTER": "E007",
+        "CODE": "SUP001",
+        "DESCRIPTION": "Blood glucose test strips",
+        "QUANTITY": 200.0
+      },
+      {
+        "DATE": "2019-02-14",
+        "PATIENT": "P004",
+        "ENCOUNTER": "E007",
+        "CODE": "SUP002",
+        "DESCRIPTION": "Lancets for blood glucose monitoring",
+        "QUANTITY": 200.0
+      },
+      {
+        "DATE": "2022-08-30",
+        "PATIENT": "P004",
+        "ENCOUNTER": "E009",
+        "CODE": "SUP030",
+        "DESCRIPTION": "Blood pressure cuff (clinic measurement)",
+        "QUANTITY": 1.0
+      }
+    ],
+    "raw_payer_transitions": [
+      {
+        "PATIENT": "P004",
+        "MEMBERID": "MEM-PR004-0004",
+        "START_DATE": "2017-04-01",
+        "END_DATE": null,
+        "PAYER": "PR004",
+        "SECONDARY_PAYER": "PR002",
+        "PLAN_OWNERSHIP": "Family",
+        "OWNER_NAME": "Priya Gupta"
+      }
+    ],
+    "demographics": {
+      "Id": "P004",
+      "BIRTHDATE": "1958-09-12",
+      "DEATHDATE": null,
+      "SSN": "444-55-6666",
+      "DRIVERS": "D444556666",
+      "PASSPORT": "P444556666",
+      "PREFIX": "Mrs.",
+      "FIRST": "Priya",
+      "MIDDLE": "Aggarwal",
+      "LAST": "Gupta",
+      "SUFFIX": null,
+      "MAIDEN": null,
+      "MARITAL": "M",
+      "RACE": "Asian",
+      "ETHNICITY": "Non-Hispanic",
+      "GENDER": "F",
+      "BIRTHPLACE": "Chandigarh, India",
+      "ADDRESS": "9 Sector 22",
+      "CITY": "Chandigarh",
+      "STATE": "CH",
+      "COUNTY": "Chandigarh",
+      "FIPS": 160022,
+      "ZIP": 160022,
+      "LAT": 30.7333,
+      "LON": 76.7794,
+      "HEALTHCARE_EXPENSES": 18900.0,
+      "HEALTHCARE_COVERAGE": 60000,
+      "INCOME": 780000
+    }
+  },
+  {
+    "patient_id": "P005",
+    "age": 23,
+    "gender": "m",
+    "diagnoses": [
+      "Reactive airway disease / asthma"
+    ],
+    "procedures": [
+      "Spirometry (lung function test)"
+    ],
+    "medications": [
+      "Salbutamol metered-dose inhaler (rescue)"
+    ],
+    "labs": {
+      "SpO2 (pulse oximetry)": 97.0,
+      "Respiratory rate": 18.0
+    },
+    "raw_observations": [
+      {
+        "DATE": "2024-06-12",
+        "PATIENT": "P005",
+        "ENCOUNTER": "E010",
+        "CATEGORY": "vital-signs",
+        "CODE": "59408-5",
+        "DESCRIPTION": "SpO2 (pulse oximetry)",
+        "VALUE": 97.0,
+        "UNITS": "%",
+        "TYPE": "numeric"
+      },
+      {
+        "DATE": "2024-06-12",
+        "PATIENT": "P005",
+        "ENCOUNTER": "E010",
+        "CATEGORY": "vital-signs",
+        "CODE": "9279-1",
+        "DESCRIPTION": "Respiratory rate",
+        "VALUE": 18.0,
+        "UNITS": "/min",
+        "TYPE": "numeric"
+      }
+    ],
+    "raw_conditions": [
+      {
+        "START": "2024-06-12",
+        "STOP": null,
+        "PATIENT": "P005",
+        "ENCOUNTER": "E010",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 195967001.0,
+        "DESCRIPTION": "Reactive airway disease / asthma"
+      }
+    ],
+    "raw_medications": [
+      {
+        "START": "2024-06-13",
+        "STOP": null,
+        "PATIENT": "P005",
+        "PAYER": "PR005",
+        "ENCOUNTER": "E010",
+        "CODE": 617314.0,
+        "DESCRIPTION": "Salbutamol metered-dose inhaler (rescue)",
+        "BASE_COST": 15.1,
+        "PAYER_COVERAGE": 12.0,
+        "DISPENSES": 2.0,
+        "TOTALCOST": 30.2,
+        "REASONCODE": 195967001.0,
+        "REASONDESCRIPTION": "Reactive airway disease / asthma"
+      }
+    ],
+    "raw_procedures": [
+      {
+        "START": "2024-06-12",
+        "STOP": "2024-06-12",
+        "PATIENT": "P005",
+        "ENCOUNTER": "E010",
+        "SYSTEM": "http://snomed.info/sct",
+        "CODE": 2667000.0,
+        "DESCRIPTION": "Spirometry (lung function test)",
+        "BASE_COST": 60.0,
+        "REASONCODE": 195967001.0,
+        "REASONDESCRIPTION": "Reactive airway disease / asthma"
+      }
+    ],
+    "raw_allergies": [
+      {
+        "START": "2024-06-15",
+        "STOP": null,
+        "PATIENT": "P005",
+        "ENCOUNTER": "E010",
+        "CODE": 7982,
+        "SYSTEM": "http://snomed.info/sct",
+        "DESCRIPTION": "No known drug allergies (NKDA)",
+        "TYPE": "allergy",
+        "CATEGORY": "recorded",
+        "REACTION1": "none",
+        "DESCRIPTION1": null,
+        "SEVERITY1": null,
+        "REACTION2": null,
+        "DESCRIPTION2": null,
+        "SEVERITY2": null
+      }
+    ],
+    "raw_careplans": [
+      {
+        "Id": "CP006",
+        "START": "2024-06-12",
+        "STOP": null,
+        "PATIENT": "P005",
+        "ENCOUNTER": "E010",
+        "CODE": 698360004,
+        "DESCRIPTION": "Asthma action plan",
+        "REASONCODE": 195967001,
+        "REASONDESCRIPTION": "Asthma"
+      }
+    ],
+    "raw_claims": [
+      {
+        "Id": "CLM007",
+        "PATIENTID": "P005",
+        "PROVIDERID": "PRV005",
+        "PRIMARYPATIENTINSURANCEID": "PR005",
+        "SECONDARYPATIENTINSURANCEID": null,
+        "DEPARTMENTID": "DEP04",
+        "PATIENTDEPARTMENTID": "DEP04",
+        "DIAGNOSIS1": "J45.909",
+        "DIAGNOSIS2": "R05.9",
+        "DIAGNOSIS3": null,
+        "DIAGNOSIS4": null,
+        "DIAGNOSIS5": "Z88.0",
+        "DIAGNOSIS6": null,
+        "DIAGNOSIS7": null,
+        "DIAGNOSIS8": null,
+        "REFERRINGPROVIDERID": null,
+        "APPOINTMENTID": "PRV005",
+        "CURRENTILLNESSDATE": "APT007",
+        "SERVICEDATE": "2024-06-10",
+        "SUPERVISINGPROVIDERID": "2024-06-12",
+        "STATUS1": "PRV005",
+        "STATUS2": "PAID",
+        "STATUSP": null,
+        "OUTSTANDING1": "PAID",
+        "OUTSTANDING2": 0,
+        "OUTSTANDINGP": 0,
+        "LASTBILLEDDATE1": 0,
+        "LASTBILLEDDATE2": "2024-06-20",
+        "LASTBILLEDDATEP": null,
+        "HEALTHCARECLAIMTYPEID1": "2024-06-20",
+        "HEALTHCARECLAIMTYPEID2": "OUTPATIENT"
+      }
+    ],
+    "raw_devices": [
+      {
+        "START": "2024-06-12",
+        "STOP": null,
+        "PATIENT": "P005",
+        "ENCOUNTER": "E010",
+        "CODE": 705088002,
+        "DESCRIPTION": "Inhaler spacer device",
+        "UDI": "(01)08912345000055(17)280101(10)SPACER-P005"
+      }
+    ],
+    "raw_encounters": [
+      {
+        "Id": "E010",
+        "START": "2024-06-12T12:20:00Z",
+        "STOP": "2024-06-12T12:55:00Z",
+        "PATIENT": "P005",
+        "ORGANIZATION": "ORG005",
+        "PROVIDER": "PRV010",
+        "PAYER": "PR005",
+        "ENCOUNTERCLASS": "ambulatory",
+        "CODE": 185349003.0,
+        "DESCRIPTION": "Follow-up for breathing symptoms (asthma)",
+        "BASE_ENCOUNTER_COST": 75.0,
+        "TOTAL_CLAIM_COST": 180.0,
+        "PAYER_COVERAGE": 140.0,
+        "REASONCODE": 195967001.0,
+        "REASONDESCRIPTION": "Reactive airway disease / asthma"
+      }
+    ],
+    "raw_imaging_studies": [],
+    "raw_immunizations": [
+      {
+        "DATE": "2024-06-12",
+        "PATIENT": "P005",
+        "ENCOUNTER": "E010",
+        "CODE": 140.0,
+        "DESCRIPTION": "Influenza virus vaccine, seasonal, injectable",
+        "BASE_COST": 18.0
+      }
+    ],
+    "raw_supplies": [
+      {
+        "DATE": "2024-06-12",
+        "PATIENT": "P005",
+        "ENCOUNTER": "E010",
+        "CODE": "SUP020",
+        "DESCRIPTION": "Spacer device for inhaler use",
+        "QUANTITY": 1.0
+      }
+    ],
+    "raw_payer_transitions": [
+      {
+        "PATIENT": "P005",
+        "MEMBERID": "MEM-PR005-0005",
+        "START_DATE": "2023-01-01",
+        "END_DATE": null,
+        "PAYER": "PR005",
+        "SECONDARY_PAYER": null,
+        "PLAN_OWNERSHIP": "Individual",
+        "OWNER_NAME": "Vivek Mishra"
+      }
+    ],
+    "demographics": {
+      "Id": "P005",
+      "BIRTHDATE": "2002-04-09",
+      "DEATHDATE": null,
+      "SSN": "555-66-7777",
+      "DRIVERS": "D555667777",
+      "PASSPORT": "P555667777",
+      "PREFIX": "Mr.",
+      "FIRST": "Vivek",
+      "MIDDLE": "Raj",
+      "LAST": "Mishra",
+      "SUFFIX": null,
+      "MAIDEN": null,
+      "MARITAL": "S",
+      "RACE": "Asian",
+      "ETHNICITY": "Non-Hispanic",
+      "GENDER": "M",
+      "BIRTHPLACE": "Lucknow, India",
+      "ADDRESS": "101 Gomti Nagar",
+      "CITY": "Lucknow",
+      "STATE": "UP",
+      "COUNTY": "Lucknow",
+      "FIPS": 226010,
+      "ZIP": 226010,
+      "LAT": 26.8467,
+      "LON": 80.9462,
+      "HEALTHCARE_EXPENSES": 2100.25,
+      "HEALTHCARE_COVERAGE": 25000,
+      "INCOME": 350000
+    }
+  }
+]

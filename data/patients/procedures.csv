@@ -1,0 +1,15 @@
+START,STOP,PATIENT,ENCOUNTER,SYSTEM,CODE,DESCRIPTION,BASE_COST,REASONCODE,REASONDESCRIPTION
+2022-03-10,2022-03-10,P001,E001,http://snomed.info/sct,43396009,Hemoglobin A1c measurement,35,44054006,Diabetes mellitus type 2 (T2DM)
+2023-07-15,2023-07-15,P001,E002,http://snomed.info/sct,75367002,Blood pressure measurement,15,59621000,Essential hypertension
+,,,,,,,,,
+2021-05-20,2021-05-20,P002,E003,http://snomed.info/sct,75367002,Blood pressure measurement,15,38341003,High blood pressure (HTN)
+2024-01-18,2024-01-18,P002,E004,http://snomed.info/sct,313191000,Serum creatinine test,25,709044004,Chronic kidney disease stage 3 (moderate)
+,,,,,,,,,
+2020-09-05,2020-09-05,P003,E005,http://snomed.info/sct,2667000,Spirometry (lung function test),60,195967001,Bronchial asthma (mild intermittent)
+2023-11-22,2023-11-22,P003,E006,http://snomed.info/sct,225358003,Nebulizer therapy administered,45,10509002,Acute bronchitis (viral)
+,,,,,,,,,
+2019-02-14,2019-02-14,P004,E007,http://snomed.info/sct,43396009,HbA1c measurement,35,44054006,Non-insulin dependent diabetes mellitus
+2020-01-10,2020-01-10,P004,E008,http://snomed.info/sct,75367002,Blood pressure measurement,15,59621000,Essential hypertension
+2022-08-30,2022-08-30,P004,E009,http://snomed.info/sct,108241001,Hemodialysis procedure (outpatient),250,709044004,Chronic kidney disease stage 4 (severe)
+,,,,,,,,,
+2024-06-12,2024-06-12,P005,E010,http://snomed.info/sct,2667000,Spirometry (lung function test),60,195967001,Reactive airway disease / asthma
